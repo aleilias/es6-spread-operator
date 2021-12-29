@@ -13,6 +13,7 @@ function App() {
     setItems((prevItem) => {
       return [...prevItem, item];
     });
+    setItem("");
   }
 
   return (
